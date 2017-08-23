@@ -37,7 +37,7 @@ Sitecore.CollapsiblePanel = new function () {
         if ($sc.trim(value) === "") {
             alert(newName.attr("data-validation-msg"));
             
-            // Fix of the bug #179018
+            // Fix of the bug #179018 
             // newName.focus()
 
             return;
